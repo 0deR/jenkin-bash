@@ -4,4 +4,4 @@ sudo sh -c 'echo deb http://pkg.jenkins.io/debian-stable binary/ > /etc/apt/sour
 sudo apt-get update -y
 sudo apt-get install openjdk-8-jdk -y
 sudo apt-get install jenkins -y 
-/var/lib/jenkins/secrets/initialAdminPassword
+cat /var/lib/jenkins/secrets/initialAdminPassword
